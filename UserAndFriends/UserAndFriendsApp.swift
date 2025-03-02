@@ -13,5 +13,6 @@ struct UserAndFriendsApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: User.self)
     }
 }
